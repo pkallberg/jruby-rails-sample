@@ -5,8 +5,8 @@ ruby '1.9.3', :engine => 'jruby', :engine_version => '1.7.10'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.0'
-# Use postgresql as the database for Active Record
-gem 'pg'
+# Use JDBC postgresql as the database for Active Record
+gem 'activerecord-jdbcpostgresql-adapter'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
 # Use Uglifier as compressor for JavaScript assets
